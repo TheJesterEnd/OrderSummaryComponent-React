@@ -1,0 +1,71 @@
+.summary {
+  padding: 24px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.summary h3 {
+  text-align: left;
+}
+.summary-content {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+.reaction-title {
+  color: var(--Red, #f55);
+}
+.memory-title {
+  color: var(--Yellow, #ffb21e);
+}
+.verbal-title {
+  color: var(--Green, #00bb8f);
+}
+.visual-title {
+  color: var(--Blue, #1125d6);
+}
+.reaction {
+  background: var(
+    --red-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55
+  );
+}
+.memory {
+  background: var(
+    --yellow-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e
+  );
+}
+.verbal {
+  background: var(
+    --green-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f
+  );
+}
+.visual {
+  background: var(
+    --blue-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6
+  );
+}

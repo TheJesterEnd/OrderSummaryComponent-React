@@ -1,0 +1,25 @@
+.row-container {
+  display: flex;
+  padding: 17px 16px 19px;
+  justify-content: space-between;
+  width: 315px;
+  border-radius: 12px;
+}
+.row-container_content {
+  display: flex;
+  gap: 12px;
+}
+.row-container_content p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.number-info {
+  display: flex;
+  gap: 8px;
+  color: var(--Dark-Navy, #303b59);
+  font-size: 16px;
+  font-weight: 700;
+}
+.number-info p {
+  opacity: 0.5;
+}
